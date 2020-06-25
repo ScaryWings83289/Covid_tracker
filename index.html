@@ -1,0 +1,231 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="app.css">
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&family=Literata:wght@700&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="https://img.icons8.com/nolan/64/coronavirus.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bitter:wght@700&family=Concert+One&display=swap" rel="stylesheet" <title>CoronaGo</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg fixed-top fill" id="nav">
+        <a class="navbar-brand" id="brand" href="#">
+            <img src="https://img.icons8.com/nolan/64/coronavirus.png" width="35" height="35" class="d-inline-block align-top" alt="" loading="lazy">
+            <b>CoronaGo</b>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse list" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#s1"><b>Home</b></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#s2"><b>Symptoms</b></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#s3"><b>Prevention</b></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#foot"><b>About</b></a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="slide" id="s1">
+        <div class="container-fluid">
+            <div class="row mt-5">
+                <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
+                    <img id="virus" class="shadow" src="./Images/virus.gif" alt="virus">
+                </div>
+                <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 mt-3">
+                    <h1 class="text-secondary">TOGETHER WE CAN BEAT THIS!</h1>
+                    <h2><b>Live Status Across India</b></h2><br>
+                    <div class="row text-center my-3">
+                        <div class="col-6">
+                            <div class="card bg-warning cont rounded shadow">
+                                <div class="card-body px-1 py-3">
+                                    Confirmed<br><br>
+                                    <span id="confirmed"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="card bg-info cont rounded shadow">
+                                <div class="card-body px-1 py-3">
+                                    Active<br><br>
+                                    <span id="active"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row text-center">
+                        <div class="col-6">
+                            <div class="card bg-success cont rounded shadow">
+                                <div class="card-body px-1 py-3">
+                                    Recovered<br><br>
+                                    <span id="recovered"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="card bg-danger cont rounded shadow">
+                                <div class="card-body px-1 py-3">
+                                    Deaths<br><br>
+                                    <span id="deaths"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="s2">
+        <h1 class="text-dark text-center display-4">Symptoms</h1>
+        <div class="container">
+            <div class="row mt-4">
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+                    <div class="card my-3 border-0 shadow">
+                        <img src="./Images/Breathing.gif" alt="Breathing" class="img-top symptoms">
+                        <div class="card-body px-1">
+                            <p class="card-text text-center font-weight-bold">Difficulty in Breathing</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+                    <div class="card my-3 border-0 shadow">
+                        <img src="./Images/tiredness.gif" alt="Breathing" class="img-top symptoms">
+                        <div class="card-body px-1">
+                            <p class="card-text text-center font-weight-bold">Tiredness</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+                    <div class="card my-3 border-0 shadow">
+                        <img src="./Images/fever.gif" alt="Breathing" class="img-top symptoms">
+                        <div class="card-body px-1">
+                            <p class="card-text text-center font-weight-bold">Fever</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+                    <div class="card my-3 border-0 shadow">
+                        <img src="./Images/Cough.gif" alt="Breathing" class="img-top symptoms">
+                        <div class="card-body px-1">
+                            <p class="card-text text-center font-weight-bold">Cough</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="s3">
+        <h1 class="text-dark text-center display-4">Preventions</h1>
+        <div class="container">
+            <div class="row mt-4">
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+                    <div class="card my-3 border-0 shadow">
+                        <img src="./Images/Mask.gif" alt="Breathing" class="img-top symptoms">
+                        <div class="card-body px-1">
+                            <p class="card-text text-center prevention font-weight-bold">Wear a Mask</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+                    <div class="card my-3 border-0 shadow">
+                        <img src="./Images/namaste.gif" alt="Breathing" class="img-top symptoms">
+                        <div class="card-body px-1">
+                            <p class="card-text text-center prevention font-weight-bold">Namaste! No handshake</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+                    <div class="card my-3 border-0 shadow">
+                        <img src="./Images/Social-Distancing.gif" alt="Breathing" class="img-top symptoms">
+                        <div class="card-body px-1">
+                            <p class="card-text text-center prevention font-weight-bold">Keep Social Distancing</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+                    <div class="card my-3 border-0 shadow">
+                        <img src="./Images/wash-hands.gif" alt="Breathing" class="img-top symptoms">
+                        <div class="card-body px-1">
+                            <p class="card-text text-center prevention font-weight-bold">Wash your hands</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="s4">
+        <h1 class="text-dark text-center display-4">Stay Home! Stay Safe!</h1>
+        <div class="container">
+            <div class="row mt-4">
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+                    <div class="card my-3 border-0">
+                        <img src="./Images/guitar.gif" alt="Breathing" class="img-top symptoms shadow">
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+                    <div class="card my-3 border-0">
+                        <img src="./Images/music.gif" alt="Breathing" class="img-top symptoms shadow">
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+                    <div class="card my-3 border-0">
+                        <img src="./Images/house.gif" alt="Breathing" class="img-top symptoms shadow">
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+                    <div class="card my-3 border-0">
+                        <img src="./Images/laptop.gif" alt="Breathing" class="img-top symptoms shadow">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="foot" class="py-1 mt-4">
+        &copy Designed and Developed by<br> Divyankar Bhargav
+        <div class="footer-social-icons">
+            <ul class="social-icons">
+                <li>
+                    <a href="https://www.linkedin.com/in/divyankar-bhargav-a4b487196/" class="social-icon"> <i class="fa fa-linkedin"></i></a>
+                </li>
+                <li>
+                    <a href="https://github.com/ScaryWings83289" class="social-icon"> <i class="fa fa-github"></i></a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+    
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="app.js"></script>
+    
+</body>
+</html>
